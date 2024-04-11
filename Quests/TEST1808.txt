@@ -1,0 +1,126 @@
+Quest: TEST1808
+DisplayName: Test Vampire Haunts
+-- Created by GhostPutty
+-- Message panels 
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Can you obtain these research documents?
+
+RefuseQuest:  [1001]
+<ce> Then stop wasting my time!
+
+AcceptQuest:  [1002]
+<ce> It's a vampire haunt. There are 29 in Glenpoint.
+<ce> A group calling themselves The Academics is offering
+<ce> a reward for collecting research documents from each.
+<ce> They are offering gold and precise summoning services.
+<ce> The first piece of research can be found in __dung1_.
+<ce> Return to _qgfriend_ of __qgfriend_ 
+<ce> at ___qgfriend_ when you find them all.
+
+QuestFail:  [1003]
+<ce> You haven't done enough to earn the title of Vampire Slayer.
+
+QuestComplete:  [1004]
+<ce> You've found them all! With this information 
+<ce> we may be able to summon Mephala!
+
+QuestorPostsuccess:  [1008]
+You have served us well in the past. How can we help you?
+
+QuestLogEntry:  [1010]
+%qdt
+Find research in __dung1_ 
+It has more information on the locations 
+of the other vampire haunts. 
+Then return to _qgfriend_ 
+of __qgfriend_ at ___qgfriend_.
+
+Message:  1011
+<ce> Return when you have them all!
+
+Message:  1012
+<ce> It's a map of this dungeon and directions to another.
+<ce> Adding the new location to my notebook. 
+<ce> There's also research on Mephala!
+
+Message:  1013
+<ce> It's a map of this dungeon and directions to another.
+<ce> Adding the new location to my notebook. 
+
+Message:  1014
+<ce> It's a map of this dungeon.
+<ce> There's also research on Mephala!
+
+Message:  1015
+<ce> This is the final research. 
+<ce> Return to _qgfriend_ 
+<ce> of __qgfriend_ at ___qgfriend_.
+
+Message:  1016
+%qdt:
+ This is the final research. 
+ Return to _qgfriend_ 
+ of __qgfriend_ at ___qgfriend_.
+
+Message:  1018
+%qdt:
+ I must find:
+ __dung1_
+
+Message:  1019
+%qdt:
+ I must find:
+
+Message:  1021
+<ce>  Research from Vampire Haunt:
+<ce>  __dung1_
+
+
+QBN:
+
+Person _qgfriend_ group Librarian female remote anyInfo 1011
+
+Item _letter1_ letter used 1021
+
+Item _gold_ gold range 29000 to 58000
+
+Place _dung1_ remote dungeon8
+
+
+
+--	Quest start-up:
+	say 1002
+	log 1018 step 0
+	log 1019 step 1
+	log 1010 step 2
+	place item _letter1_ at _dung1_
+	reveal _dung1_ 
+	
+_foundletter1_ task:
+	clicked item _letter1_
+	say 1014
+
+_group1_ task:
+	when _foundletter1_ 
+	
+_allmaps_ task:
+	when _group1_ 
+	say 1015
+	log 1016 step 4
+	
+_qgclicked_ task:
+	clicked npc _qgfriend_ 
+
+_clearclick_ task:
+	when _qgclicked_ and not _allmaps_
+	say 1003 
+	clear _qgclicked_ _clearclick_ 
+	
+_questdone_ task:
+	when _qgclicked_ and _allmaps_ 
+	give pc _gold_ 
+	legal repute +15
+	end quest 
+

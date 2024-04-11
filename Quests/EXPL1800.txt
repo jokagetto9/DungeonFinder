@@ -1,0 +1,446 @@
+Quest: EXPL1800
+DisplayName: Glenpoint Crypts
+-- Created by GhostPutty
+-- Message panels 
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Can you obtain these research documents?
+
+RefuseQuest:  [1001]
+<ce> Then stop wasting my time!
+
+AcceptQuest:  [1002]
+<ce> It's a crypt. There are 16 of them in Glenpoint.
+<ce> A group calling themselves the Academics is offering
+<ce> a reward for collecting research documents from each.
+<ce> They are offering gold and precise summoning services.
+<ce> The first piece of research can be found in __dung1_.
+<ce> Return to _qgfriend_ of __qgfriend_ 
+<ce> at ___qgfriend_ when you find them all.
+
+
+QuestFail:  [1003]
+<ce> You haven't done enough to earn the title of Crypt Master.
+
+QuestComplete:  [1004]
+<ce> You've found them all! With more of this 
+<ce> information we may be able to summon Vaernima!
+<ce> Crypts are found all over. Try Alik'r, Daggerfall, 
+<ce> Ilessan Hills, Totambu, Dwynnen and more.
+
+QuestorPostsuccess:  [1008]
+You have served us well in the past. How can we help you?
+
+QuestLogEntry:  [1010]
+%qdt:
+ Find research in __dung1_ 
+ It has more information on the locations 
+ of the other crypts. 
+ Then return to _qgfriend_ 
+ of __qgfriend_ at ___qgfriend_.
+
+Message:  1011
+<ce> Return when you have them all!
+
+Message:  1012
+<ce> It's a map of this dungeon and directions to another.
+<ce> Adding the new location to my notebook. 
+<ce> There's also research on Vaernima!
+
+Message:  1013
+<ce> It's a map of this dungeon and directions to another.
+<ce> Adding the new location to my notebook. 
+
+Message:  1014
+<ce> It's a map of this dungeon.
+<ce> There's also research on Vaernima!
+
+Message:  1015
+<ce> This is the final map. 
+<ce> Return to _qgfriend_ 
+<ce> of __qgfriend_ at ___qgfriend_.
+
+Message:  1016
+%qdt:
+ This is the final map. 
+ Return to _qgfriend_ 
+ of __qgfriend_ at ___qgfriend_.
+
+
+Message:  1018
+%qdt:
+ I must find:
+ __dung1_
+ __dung2_
+ __dung3_
+ __dung4_
+ __dung5_
+ __dung6_
+ __dung7_
+ __dung8_
+ __dung9_
+ __dung10_
+ __dung11_
+ __dung12_
+ __dung13_
+ __dung14_
+ __dung15_  
+ __dung16_
+
+
+Message:  1021
+<ce>  Research from the Crypt:
+<ce>  __dung1_
+
+Message:  1022
+<ce>   Research from the Crypt:
+<ce>  __dung2_
+
+Message:  1023
+<ce>   Research from the Crypt:
+<ce>  __dung3_
+
+Message:  1024
+<ce>   Research from the Crypt:
+<ce>  __dung4_
+
+Message:  1025
+<ce>   Research from the Crypt:
+<ce>  __dung5_
+
+Message:  1026
+<ce>   Research from the Crypt:
+<ce>  __dung6_
+
+Message:  1027
+<ce>   Research from the Crypt:
+<ce>  __dung7_
+
+Message:  1028
+<ce>   Research from the Crypt:
+<ce>  __dung8_
+
+Message:  1029
+<ce>   Research from the Crypt:
+<ce>  __dung9_
+
+Message:  1030
+<ce>   Research from the Crypt:
+<ce>  __dung10_
+
+Message:  1031
+<ce>   Research from the Crypt:
+<ce>  __dung11_
+
+Message:  1032
+<ce>   Research from the Crypt:
+<ce>  __dung12_
+
+Message:  1033
+<ce>   Research from the Crypt:
+<ce>  __dung13_
+
+Message:  1034
+<ce>   Research from the Crypt:
+<ce>  __dung14_
+
+Message:  1035
+<ce>   Research from the Crypt:
+<ce>  __dung15_
+
+Message:  1036
+<ce>   Research from the Crypt:
+<ce>  __dung16_
+
+
+Message:  1051
+%qdt
+ You found the research documents.
+ The notes point to __dung2_.
+
+Message:  1052
+%qdt
+ You found the research documents.
+ The notes point to __dung3_.
+
+Message:  1053
+%qdt
+ You found the research documents.
+ The notes point to __dung4_.
+
+Message:  1054
+%qdt
+ You found the research documents.
+ The notes point to __dung5_.
+
+Message:  1055
+%qdt
+ You found the research documents.
+ The notes point to __dung6_.
+
+Message:  1056
+%qdt
+ You found the research documents.
+ The notes point to __dung7_.
+
+Message:  1057
+%qdt
+ You found the research documents.
+ The notes point to __dung8_.
+
+Message:  1058
+%qdt
+ You found the research documents.
+ The notes point to __dung9_.
+
+Message:  1059
+%qdt
+ You found the research documents.
+ The notes point to __dung10_.
+
+Message:  1060
+%qdt
+ You found the research documents.
+ The notes point to __dung11_.
+
+Message:  1061
+%qdt
+ You found the research documents.
+ The notes point to __dung12_.
+
+Message:  1062
+%qdt
+ You found the research documents.
+ The notes point to __dung13_.
+
+Message:  1063
+%qdt
+ You found the research documents.
+ The notes point to __dung14_.
+
+Message:  1064
+%qdt
+ You found the research documents.
+ The notes point to __dung15_.
+
+Message:  1065
+%qdt
+ You found the research documents.
+ The notes point to __dung16_.
+
+ 
+QBN:
+
+Person _qgfriend_ group Librarian female remote anyInfo 1011
+
+Item _letter1_ letter used 1021
+Item _letter2_ letter used 1022
+Item _letter3_ letter used 1023
+Item _letter4_ letter used 1024
+Item _letter5_ letter used 1025
+Item _letter6_ letter used 1026
+Item _letter7_ letter used 1027
+Item _letter8_ letter used 1028
+Item _letter9_ letter used 1029
+Item _letter10_ letter used 1030
+Item _letter11_ letter used 1031
+Item _letter12_ letter used 1032
+Item _letter13_ letter used 1033
+Item _letter14_ letter used 1034
+Item _letter15_ letter used 1035
+Item _letter16_ letter used 1036
+
+Item _gold_ gold range 16000 to 36000
+
+Place _dung1_ remote dungeon0
+Place _dung2_ remote dungeon0
+Place _dung3_ remote dungeon0
+Place _dung4_ remote dungeon0
+Place _dung5_ remote dungeon0
+Place _dung6_ remote dungeon0
+Place _dung7_ remote dungeon0
+Place _dung8_ remote dungeon0
+Place _dung9_ remote dungeon0
+Place _dung10_ remote dungeon0
+Place _dung11_ remote dungeon0
+Place _dung12_ remote dungeon0
+Place _dung13_ remote dungeon0
+Place _dung14_ remote dungeon0
+Place _dung15_ remote dungeon0
+Place _dung16_ remote dungeon0
+
+Foe _wave1_ is Skeletal_warrior
+Foe _wave2_ is Ghost
+
+--	Quest start-up:
+	say 1002
+	log 1018 step 0
+	log 1010 step 2
+	place item _letter1_ at _dung1_
+	place item _letter2_ at _dung2_
+	place item _letter3_ at _dung3_
+	place item _letter4_ at _dung4_
+	place item _letter5_ at _dung5_
+	place item _letter6_ at _dung6_
+	place item _letter7_ at _dung7_
+	place item _letter8_ at _dung8_
+	place item _letter9_ at _dung9_
+	place item _letter10_ at _dung10_
+	place item _letter11_ at _dung11_
+	place item _letter12_ at _dung12_
+	place item _letter13_ at _dung13_
+	place item _letter14_ at _dung14_
+	place item _letter15_ at _dung15_
+	place item _letter16_ at _dung16_
+	reveal _dung1_ 
+	
+_foundletter1_ task:
+	clicked item _letter1_
+	reveal _dung2_ readmap
+	say 1013
+	log 1051 step 3
+	
+_foundletter2_ task:
+	clicked item _letter2_
+	reveal _dung3_ readmap
+	say 1013
+	log 1052 step 3
+	
+_foundletter3_ task:
+	clicked item _letter3_
+	reveal _dung4_ readmap
+	say 1013
+	log 1053 step 3
+	
+_foundletter4_ task:
+	clicked item _letter4_
+	reveal _dung5_ readmap
+	say 1013
+	log 1054 step 3
+	
+_foundletter5_ task:
+	clicked item _letter5_
+	reveal _dung6_ readmap
+	say 1012
+	log 1055 step 3
+	
+_foundletter6_ task:
+	clicked item _letter6_
+	reveal _dung7_ readmap
+	say 1013
+	log 1056 step 3
+	
+_foundletter7_ task:
+	clicked item _letter7_
+	reveal _dung8_ readmap
+	say 1013
+	log 1057 step 3
+	
+_foundletter8_ task:
+	clicked item _letter8_
+	reveal _dung9_ readmap
+	say 1013
+	log 1058 step 3
+	
+_foundletter9_ task:
+	clicked item _letter9_
+	reveal _dung10_ readmap
+	say 1013
+	log 1059 step 3
+	
+_foundletter10_ task:
+	clicked item _letter10_
+	reveal _dung11_ readmap
+	say 1012
+	log 1060 step 3
+	
+_foundletter11_ task:
+	clicked item _letter11_
+	reveal _dung12_ readmap
+	say 1013
+	log 1061 step 3
+	
+_foundletter12_ task:
+	clicked item _letter12_
+	reveal _dung13_ readmap
+	say 1013
+	log 1062 step 3
+	
+_foundletter13_ task:
+	clicked item _letter13_
+	reveal _dung14_ readmap
+	say 1013
+	log 1063 step 3
+	
+_foundletter14_ task:
+	clicked item _letter14_
+	reveal _dung15_ readmap
+	say 1013
+	log 1064 step 3
+	
+_foundletter15_ task:
+	clicked item _letter15_
+	reveal _dung16_ readmap
+	say 1012
+	log 1065 step 3
+	
+_foundletter16_ task:
+	clicked item _letter16_
+	say 1014
+
+_group1_ task:
+	when _foundletter1_ and _foundletter2_ and _foundletter3_ and _foundletter4_ and _foundletter5_ 
+	
+_group2_ task:
+	when _foundletter6_ and _foundletter7_ and _foundletter8_ and _foundletter9_ and _foundletter10_ 
+	
+_group3_ task:
+	when _foundletter11_ and _foundletter12_ and _foundletter13_ and _foundletter14_ and _foundletter15_ 
+	
+_group4_ task:
+	when _foundletter16_ 
+	
+
+_allmaps_ task:
+	when _group1_ and _group2_ and _group3_ and _group4_ 
+	say 1015
+	log 1016 step 4
+	
+	
+_spawn1_ task:
+	when not _day_ and _group1_
+	create foe _wave1_ every 160 minutes 20 times with 20% success 
+	
+_spawn2_ task:
+	when not _day_ and _group2_
+	create foe _wave1_ every 155 minutes 20 times with 20% success 
+
+_spawn3_ task:
+	when not _day_ and _group3_
+	create foe _wave2_ every 150 minutes 20 times with 20% success 
+
+_spawn4_ task:
+	when not _day_ and _group4_
+	create foe _wave2_ every 155 minutes 20 times with 20% success 	
+
+
+
+_day_ task:
+	daily from 4:30 to 20:30
+	
+	
+_qgclicked_ task:
+	clicked npc _qgfriend_ 
+
+_clearclick_ task:
+	when _qgclicked_ and not _allmaps_
+	say 1003 
+	clear _qgclicked_ _clearclick_ 
+	
+_questdone_ task:
+	when _qgclicked_ and _allmaps_ 
+	legal repute +15
+	give pc _gold_ 
+	end quest 
+

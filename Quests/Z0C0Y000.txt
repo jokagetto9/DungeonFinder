@@ -1,0 +1,68 @@
+Quest: Z0C0Y000
+DisplayName: Mephala Summoning
+-- Created by harbinger451 modified by GhostPutty
+-- Message panels 
+QRC:
+
+QuestorOffer:  [1000]
+<ce> You can summon Namira
+
+RefuseQuest:  [1001]
+<ce> Then stop wasting my time!
+
+AcceptQuest:  [1002]
+<ce> A messager abruptly hands you a small token.
+<ce> You've proven your mastery of the vampire haunt.
+<ce> The Academics now have the information they need
+<ce> to guarantee a successful summoning of Mephala.
+<ce> 
+<ce> Meet with _vampsummon_ 
+<ce> at __palace_ palace.
+<ce> 
+<ce> Make certain you are ready before you come. 
+
+QuestFail:  [1003]
+<ce> You haven't done enough to earn the title of Dragon Slayer.
+
+QuestComplete:  [1004]
+<ce> I will now summon Mephala.
+
+QuestorPostsuccess:  [1008]
+You have served us well in the past. How can we help you?
+
+QuestLogEntry:  [1010]
+%qdt
+<ce> Meet with _vampsummon_ 
+<ce> at __palace_ palace.
+<ce> Make certain you are ready before you come. 
+
+Message:  1011
+<ce> Return when you have them all!
+
+
+Message:  1015
+<ce> Meet with _vampsummon_ 
+<ce> of __vampsummon_ at __palace_.
+<ce> Make certain you are ready before you come. 
+
+ 
+QBN:
+
+Person _vampsummon_ face 40 factiontype Vampire_Clan remote
+Place _palace_ remote palace 
+
+--	Quest start-up:
+	say 1002
+	log 1010 step 0 
+	create npc at _palace_ 
+	place npc _vampsummon_ at _palace_ 
+	
+_qgclicked_ task:
+	clicked npc _vampsummon_ 
+
+	
+_questdone_ task:
+	when _qgclicked_ 
+	give pc nothing 
+	end quest 
+

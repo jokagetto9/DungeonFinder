@@ -1,0 +1,119 @@
+-- Jay_H Commoner quest pack list
+
+-- name:        filename of QRC txt file
+-- group:       guild group from FactionFile.GuildGroups enum, or social group from FactionFile.SocialGroups enum
+-- membership:  N=non-member, M=member, P=prospect, T=Akatosh, A=Arkay, D=Dibella, J=Julianos, K=Kynareth, R=Mara, S=Stendarr, Z=Zenithar
+-- minReq:      minimum requirement to be offered the quest: (val < 10) = guild rank / player level, or (val >= 10) = min reputation
+-- flag:        0 = nothing, X = adult/nudity, 1 = one time quest
+-- notes:       created by GhostPutty
+
+schema: *name, group, membership, minReq, flag, notes
+
+EXPL0000, Region, 0, 0, 0, Alik'r Crypts
+EXPL0004, Region, 0, 0, 0, Alik'r Desecrated Temples
+EXPL0006, Region, 0, 0, 0, Alik'r Nature Caves
+EXPL0011, Region, 0, 0, 0, Alik'r Ruined Castles
+EXPL0017, Region, 0, 0, 0, Alik'r Scorpion Nests
+EXPL0100, Region, 0, 0, 0, Dragontail Mountains Crypts
+EXPL0101, Region, 0, 0, 0, Dragontail Mountains Orc Strongholds
+EXPL0102, Region, 0, 0, 0, Dragontail Mountains Human Strongholds
+EXPL0106, Region, 0, 0, 0, Dragontail Mountains Natural Caves
+EXPL0116, Region, 0, 0, 0, Dragontail Mountains Volcanic Caves
+EXPL0500, Region, 0, 0, 0, Dwynnen Crypts
+EXPL0503, Region, 0, 0, 0, Dwynnen Prisons
+EXPL0504, Region, 0, 0, 0, Dwynnen Desecrated Temples
+EXPL0508, Region, 0, 0, 0, Dwynnen Vampire Haunts
+EXPL0509, Region, 0, 0, 0, Dwynnen Laboratories
+EXPL0511, Region, 0, 0, 0, Dwynnen Ruined Castles
+EXPL1100, Region, 0, 0, 0, Dak'fron Crypts
+EXPL1106, Region, 0, 0, 0, Dak'fron Natural Caves
+EXPL1114, Region, 0, 0, 0, Dak'fron Dragon Dens
+EXPL1117, Region, 0, 0, 0, Dak'fron Scorpion Nests
+EXPL1600, Region, 0, 0, 0, Wrothgarian Mountains Crypts
+EXPL1601, Region, 0, 0, 0, Wrothgarian Mountains Orc Strongholds
+EXPL1606, Region, 0, 0, 0, Wrothgarian Mountains Natural Caves
+EXPL1608, Region, 0, 0, 0, Wrothgarian Mountains Vampire Haunts
+EXPL1609, Region, 0, 0, 0, Wrothgarian Mountains Laboratories
+EXPL1613, Region, 0, 0, 0, Wrothgarian Mountains Giant StrongHolds
+EXPL1615, Region, 0, 0, 0, Wrothgarian Mountains Barbarian Strongholds
+EXPL1616, Region, 0, 0, 0, Wrothgarian MountainsVolcanic Caves
+EXPL1700, Region, 0, 0, 0, Daggerfall Crypts
+EXPL1703, Region, 0, 0, 0, Daggerfall Prisons
+EXPL1707, Region, 0, 0, 0, Daggerfall Covens
+EXPL1708, Region, 0, 0, 0, Daggerfall Vampire Haunts
+EXPL1709, Region, 0, 0, 0, Daggerfall Laboratories
+EXPL1711, Region, 0, 0, 0, Daggerfall Ruined Castles
+EXPL1713, Region, 0, 0, 0, Daggerfall Giant StrongHolds
+EXPL1714, Region, 0, 0, 0, Daggerfall Dragon Dens
+EXPL1800, Region, 0, 0, 0, Glenpoint Crypts
+EXPL1804, Region, 0, 0, 0, Glenpoint Desecrated Temples
+EXPL1807, Region, 0, 0, 0, Glenpoint Covens
+EXPL1808, Region, 0, 0, 0, Glenpoint Vampire Haunts
+EXPL1809, Region, 0, 0, 0, Glenpoint Laboratories
+EXPL2006, Region, 0, 0, 0, Sentinel Natural Caves
+EXPL2007, Region, 0, 0, 0, Sentinel Covens
+EXPL2011, Region, 0, 0, 0, Sentinel Ruined Castles
+EXPL2017, Region, 0, 0, 0, Sentinel Scorpion Nests
+EXPL2100, Region, 0, 0, 0, Anticlere Crypts
+EXPL2102, Region, 0, 0, 0, Anticlere Human Strongholds
+EXPL2104, Region, 0, 0, 0, Anticlere Desecrated Temples
+EXPL2106, Region, 0, 0, 0, Anticlere Natural Caves
+EXPL2107, Region, 0, 0, 0, Anticlere Covens
+EXPL2108, Region, 0, 0, 0, Anticlere Vampire Haunts
+EXPL2111, Region, 0, 0, 0, Anticlere Ruined Castles
+EXPL2301, Region, 0, 0, 0, Wayrest Orc Strongholds
+EXPL2304, Region, 0, 0, 0, Wayrest Desecrated Temples
+EXPL2307, Region, 0, 0, 0, Wayrest Covens
+EXPL2308, Region, 0, 0, 0, Wayrest Vampire Haunts
+EXPL2311, Region, 0, 0, 0, Wayrest Ruined Castles
+EXPL2601, Region, 0, 0, 0, Orsinium Orc Strongholds
+EXPL3207, Region, 0, 0, 0, Northmoor Covens
+EXPL3210, Region, 0, 0, 0, Northmoor Harpy Nests
+EXPL4006, Region, 0, 0, 0, Ykalon Natural Caves
+EXPL4009, Region, 0, 0, 0, Ykalon Laboratories
+EXPL4011, Region, 0, 0, 0, Ykalon Ruined Castles
+EXPL4012, Region, 0, 0, 0, Ykalon Spider Nests
+EXPL4015, Region, 0, 0, 0, Ykalon Barbarian Strongholds
+EXPL4310, Region, 0, 0, 0, Abibon-Gora Harpy Nests
+EXPL4810, Region, 0, 0, 0, Tigonus Harpy Nests
+EXPL4817, Region, 0, 0, 0, Tigonus Scorpion Nests
+EXPL5100, Region, 0, 0, 0, Totambu Crypts
+EXPL5101, Region, 0, 0, 0, Totambu Orc Strongholds
+EXPL5102, Region, 0, 0, 0, Totambu Human Strongholds
+EXPL5104, Region, 0, 0, 0, Totambu Desecrated Temples
+EXPL5107, Region, 0, 0, 0, Totambu Covens
+EXPL5108, Region, 0, 0, 0, Totambu Vampire Haunts
+EXPL5109, Region, 0, 0, 0, Totambu Laboratories
+EXPL5111, Region, 0, 0, 0, Totambu Ruined Castles
+EXPL5112, Region, 0, 0, 0, Totambu Spider Nests
+EXPL5113, Region, 0, 0, 0, Totambu Giant StrongHolds
+EXPL5117, Region, 0, 0, 0, Totambu Scorpion Nests
+EXPL6000, Region, 0, 0, 0, Ilessan Hills Crypts
+EXPL6002, Region, 0, 0, 0, Ilessan Hills Human Strongholds
+EXPL6003, Region, 0, 0, 0, Ilessan Hills Prisons
+EXPL6004, Region, 0, 0, 0, Ilessan Hills Desecrated Temples
+EXPL6006, Region, 0, 0, 0, Ilessan Hills Natural Caves
+EXPL6007, Region, 0, 0, 0, Ilessan Hills Covens
+EXPL6008, Region, 0, 0, 0, Ilessan Hills Vampire Haunts
+EXPL6009, Region, 0, 0, 0, Ilessan Hills Laboratories
+EXPL6011, Region, 0, 0, 0, Ilessan Hills Ruined Castles
+EXPL6012, Region, 0, 0, 0, Ilessan Hills Spider Nests
+EXPL6013, Region, 0, 0, 0, Ilessan Hills Giant StrongHolds
+EXPL6015, Region, 0, 0, 0, Ilessan Hills Barbarian Strongholds
+10C0Y000, Region, 0, 0, 1, Meridia Summoning
+20C0Y000, Region, 0, 0, 1, Molag Bal Summoning
+30C0Y000, Region, 0, 0, 1, Namira Summoning
+40C0Y000, Region, 0, 0, 1, Nocturnal Summoning
+50C0Y000, Region, 0, 0, 1, Peryite Summoning
+60C0Y000, Region, 0, 0, 1, Sheogorath Summoning
+70C0Y000, Region, 0, 0, 1, Sanguine Summoning
+80C0Y000, Region, 0, 0, 1, Malacath Summoning
+90C0Y000, Region, 0, 0, 1, Vaernima Summoning
+T0C0Y000, Region, 0, 0, 1, Azura Summoning
+U0C0Y000, Region, 0, 0, 1, Boethiah Summoning
+V0C0Y000, Region, 0, 0, 1, Clavicus Vile Summoning
+W0C0Y000, Region, 0, 0, 1, Hermaeus Mora Summoning
+X0C0Y000, Region, 0, 0, 1, Hircine Summoning
+Y0C0Y000, Region, 0, 0, 1, Mehrunes Dagon Summoning
+Z0C0Y000, Region, 0, 0, 1, Mephala Summoning
+TEST1808, Region, 0, 0, 0, Test Vampire Haunts

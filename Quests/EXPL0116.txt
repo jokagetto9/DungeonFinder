@@ -1,0 +1,700 @@
+Quest: EXPL0116
+DisplayName: Dragontail Volcanic Caves
+
+-- Created by GhostPutty
+-- Message panels 
+QRC:
+
+QuestorOffer:  [1000]
+<ce> Can you obtain these research documents?
+
+RefuseQuest:  [1001]
+<ce> Then stop wasting my time!
+
+AcceptQuest:  [1002]
+<ce> It's a volcanic cave. There are 29 in these mountains.
+<ce> A group calling themselves The Academics is offering
+<ce> a reward for collecting research documents from each.
+<ce> They are offering gold and precise summoning services.
+<ce> The first piece of research can be found in __dung1_.
+<ce> Return to _qgfriend_ of __qgfriend_ 
+<ce> at ___qgfriend_ when you find them all.
+
+QuestFail:  [1003]
+<ce> You haven't done enough to earn the title of Volcano Master.
+
+QuestComplete:  [1004]
+<ce> You've found them all! With this information 
+<ce> we may be able to summon Peryite!
+
+QuestorPostsuccess:  [1008]
+You have served us well in the past. How can we help you?
+
+QuestLogEntry:  [1010]
+%qdt
+Find research in __dung1_ 
+It has more information on the locations 
+of the other volcanic caves. 
+Then return to _qgfriend_ 
+of __qgfriend_ at ___qgfriend_.
+
+Message:  1011
+<ce> Return when you have them all!
+
+Message:  1013
+<ce> It's a map of this dungeon and directions to another.
+<ce> Adding the new location to my notebook. 
+<ce> There's also research on Peryite!
+
+Message:  1014
+<ce> It's a map of this dungeon.
+<ce> There's also research on Peryite!
+
+Message:  1015
+<ce> This is the final research. 
+<ce> Return to _qgfriend_ 
+<ce> of __qgfriend_ at ___qgfriend_.
+
+Message:  1016
+%qdt:
+ This is the final research. 
+ Return to _qgfriend_ 
+ of __qgfriend_ at ___qgfriend_.
+
+Message:  1018
+%qdt:
+ I must find:
+ __dung1_
+ __dung2_
+ __dung3_
+ __dung4_
+ __dung5_
+ __dung6_
+ __dung7_
+ __dung8_
+ __dung9_
+ __dung10_
+ __dung11_
+ __dung12_
+ __dung13_
+ __dung14_
+ __dung15_  
+ __dung16_
+ __dung17_
+ __dung18_
+
+
+Message:  1019
+%qdt:
+ I must find:
+ __dung19_
+ __dung20_
+ __dung21_
+ __dung22_
+ __dung23_
+ __dung24_
+ __dung25_
+ __dung26_
+ __dung27_
+ __dung28_
+ __dung29_
+
+Message:  1021
+<ce>  Research from Volcanic Cave:
+<ce>  __dung1_
+
+Message:  1022
+<ce>   Research from Volcanic Cave:
+<ce>  __dung2_
+
+Message:  1023
+<ce>   Research from Volcanic Cave:
+<ce>  __dung3_
+
+Message:  1024
+<ce>   Research from Volcanic Cave:
+<ce>  __dung4_
+
+Message:  1025
+<ce>   Research from Volcanic Cave:
+<ce>  __dung5_
+
+Message:  1026
+<ce>   Research from Volcanic Cave:
+<ce>  __dung6_
+
+Message:  1027
+<ce>   Research from Volcanic Cave:
+<ce>  __dung7_
+
+Message:  1028
+<ce>   Research from Volcanic Cave:
+<ce>  __dung8_
+
+Message:  1029
+<ce>   Research from Volcanic Cave:
+<ce>  __dung9_
+
+Message:  1030
+<ce>   Research from Volcanic Cave:
+<ce>  __dung10_
+
+Message:  1031
+<ce>   Research from Volcanic Cave:
+<ce>  __dung11_
+
+Message:  1032
+<ce>   Research from Volcanic Cave:
+<ce>  __dung12_
+
+Message:  1033
+<ce>   Research from Volcanic Cave:
+<ce>  __dung13_
+
+Message:  1034
+<ce>   Research from Volcanic Cave:
+<ce>  __dung14_
+
+Message:  1035
+<ce>   Research from Volcanic Cave:
+<ce>  __dung15_
+
+Message:  1036
+<ce>   Research from Volcanic Cave:
+<ce>  __dung16_
+
+Message:  1037
+<ce>   Research from Volcanic Cave:
+<ce>  __dung17_
+
+Message:  1038
+<ce>   Research from Volcanic Cave:
+<ce>  __dung18_
+
+Message:  1039
+<ce>   Research from Volcanic Cave:
+<ce>  __dung19_
+
+Message:  1040
+<ce>   Research from Volcanic Cave:
+<ce>  __dung20_
+
+Message:  1041
+<ce>   Research from Volcanic Cave:
+<ce>  __dung21_
+
+Message:  1042
+<ce>   Research from Volcanic Cave:
+<ce>  __dung22_
+
+Message:  1043
+<ce>   Research from Volcanic Cave:
+<ce>  __dung23_
+
+Message:  1044
+<ce>   Research from Volcanic Cave:
+<ce>  __dung24_
+
+Message:  1045
+<ce>   Research from Volcanic Cave:
+<ce>  __dung25_
+
+Message:  1046
+<ce>   Research from Volcanic Cave:
+<ce>  __dung26_
+
+Message:  1047
+<ce>   Research from Volcanic Cave:
+<ce>  __dung27_
+
+Message:  1048
+<ce>   Research from Volcanic Cave:
+<ce>  __dung28_
+
+Message:  1049
+<ce>   Research from Volcanic Cave:
+<ce>  __dung29_
+
+Message:  1051
+%qdt
+ You found the research documents.
+ The notes point to __dung2_.
+
+Message:  1052
+%qdt
+ You found the research documents.
+ The notes point to __dung3_.
+
+Message:  1053
+%qdt
+ You found the research documents.
+ The notes point to __dung4_.
+
+Message:  1054
+%qdt
+ You found the research documents.
+ The notes point to __dung5_.
+
+Message:  1055
+%qdt
+ You found the research documents.
+ The notes point to __dung6_.
+
+Message:  1056
+%qdt
+ You found the research documents.
+ The notes point to __dung7_.
+
+Message:  1057
+%qdt
+ You found the research documents.
+ The notes point to __dung8_.
+
+Message:  1058
+%qdt
+ You found the research documents.
+ The notes point to __dung9_.
+
+Message:  1059
+%qdt
+ You found the research documents.
+ The notes point to __dung10_.
+
+Message:  1060
+%qdt
+ You found the research documents.
+ The notes point to __dung11_.
+
+Message:  1061
+%qdt
+ You found the research documents.
+ The notes point to __dung12_.
+
+Message:  1062
+%qdt
+ You found the research documents.
+ The notes point to __dung13_.
+
+Message:  1063
+%qdt
+ You found the research documents.
+ The notes point to __dung14_.
+
+Message:  1064
+%qdt
+ You found the research documents.
+ The notes point to __dung15_.
+
+Message:  1065
+%qdt
+ You found the research documents.
+ The notes point to __dung16_.
+
+Message:  1066
+%qdt
+ You found the research documents.
+ The notes point to __dung17_.
+
+Message:  1067
+%qdt
+ You found the research documents.
+ The notes point to __dung18_.
+
+Message:  1068
+%qdt
+ You found the research documents.
+ The notes point to __dung19_.
+
+Message:  1069
+%qdt
+ You found the research documents.
+ The notes point to __dung20_.
+
+Message:  1070
+%qdt
+ You found the research documents.
+ The notes point to __dung21_.
+
+Message:  1071
+%qdt
+ You found the research documents.
+ The notes point to __dung22_.
+
+Message:  1072
+%qdt
+ You found the research documents.
+ The notes point to __dung23_.
+
+Message:  1073
+%qdt
+ You found the research documents.
+ The notes point to __dung24_.
+
+Message:  1074
+%qdt
+ You found the research documents.
+ The notes point to __dung25_.
+
+Message:  1075
+%qdt
+ You found the research documents.
+ The notes point to __dung26_.
+
+Message:  1076
+%qdt
+ You found the research documents.
+ The notes point to __dung27_.
+
+Message:  1077
+%qdt
+ You found the research documents.
+ The notes point to __dung28_.
+
+Message:  1078
+%qdt
+ You found the research documents.
+ The notes point to __dung29_.
+
+
+
+QBN:
+
+Person _qgfriend_ group Librarian female remote anyInfo 1011
+
+Item _letter1_ letter used 1021
+Item _letter2_ letter used 1022
+Item _letter3_ letter used 1023
+Item _letter4_ letter used 1024
+Item _letter5_ letter used 1025
+Item _letter6_ letter used 1026
+Item _letter7_ letter used 1027
+Item _letter8_ letter used 1028
+Item _letter9_ letter used 1029
+Item _letter10_ letter used 1030
+Item _letter11_ letter used 1031
+Item _letter12_ letter used 1032
+Item _letter13_ letter used 1033
+Item _letter14_ letter used 1034
+Item _letter15_ letter used 1035
+Item _letter16_ letter used 1036
+Item _letter17_ letter used 1037
+Item _letter18_ letter used 1038
+Item _letter19_ letter used 1039
+Item _letter20_ letter used 1040
+Item _letter21_ letter used 1041
+Item _letter22_ letter used 1042
+Item _letter23_ letter used 1043
+Item _letter24_ letter used 1044
+Item _letter25_ letter used 1045
+Item _letter26_ letter used 1046
+Item _letter27_ letter used 1047
+Item _letter28_ letter used 1048
+Item _letter29_ letter used 1049
+
+Item _gold_ gold range 29000 to 58000
+
+Place _dung1_ remote dungeon16
+Place _dung2_ remote dungeon16
+Place _dung3_ remote dungeon16
+Place _dung4_ remote dungeon16
+Place _dung5_ remote dungeon16
+Place _dung6_ remote dungeon16
+Place _dung7_ remote dungeon16
+Place _dung8_ remote dungeon16
+Place _dung9_ remote dungeon16
+Place _dung10_ remote dungeon16
+Place _dung11_ remote dungeon16
+Place _dung12_ remote dungeon16
+Place _dung13_ remote dungeon16
+Place _dung14_ remote dungeon16
+Place _dung15_ remote dungeon16
+Place _dung16_ remote dungeon16
+Place _dung17_ remote dungeon16
+Place _dung18_ remote dungeon16
+Place _dung19_ remote dungeon16
+Place _dung20_ remote dungeon16
+Place _dung21_ remote dungeon16
+Place _dung22_ remote dungeon16
+Place _dung23_ remote dungeon16
+Place _dung24_ remote dungeon16
+Place _dung25_ remote dungeon16
+Place _dung26_ remote dungeon16
+Place _dung27_ remote dungeon16
+Place _dung28_ remote dungeon16
+Place _dung29_ remote dungeon16
+
+Foe _wave1_ is Dragonling
+Foe _wave2_ is Fire_atronach
+
+--	Quest start-up:
+	say 1002
+	log 1018 step 0
+	log 1019 step 1
+	log 1010 step 2
+	place item _letter1_ at _dung1_
+	place item _letter2_ at _dung2_
+	place item _letter3_ at _dung3_
+	place item _letter4_ at _dung4_
+	place item _letter5_ at _dung5_
+	place item _letter6_ at _dung6_
+	place item _letter7_ at _dung7_
+	place item _letter8_ at _dung8_
+	place item _letter9_ at _dung9_
+	place item _letter10_ at _dung10_
+	place item _letter11_ at _dung11_
+	place item _letter12_ at _dung12_
+	place item _letter13_ at _dung13_
+	place item _letter14_ at _dung14_
+	place item _letter15_ at _dung15_
+	place item _letter16_ at _dung16_
+	place item _letter17_ at _dung17_
+	place item _letter18_ at _dung18_
+	place item _letter19_ at _dung19_
+	place item _letter20_ at _dung20_
+	place item _letter21_ at _dung21_
+	place item _letter22_ at _dung22_
+	place item _letter23_ at _dung23_
+	place item _letter24_ at _dung24_
+	place item _letter25_ at _dung25_
+	place item _letter26_ at _dung26_
+	place item _letter27_ at _dung27_
+	place item _letter28_ at _dung28_
+	place item _letter29_ at _dung29_
+	reveal _dung1_ 
+	
+_foundletter1_ task:
+	clicked item _letter1_
+	reveal _dung2_ readmap
+	say 1013
+	log 1051 step 3
+	
+_foundletter2_ task:
+	clicked item _letter2_
+	reveal _dung3_ readmap
+	say 1013
+	log 1052 step 3
+	
+_foundletter3_ task:
+	clicked item _letter3_
+	reveal _dung4_ readmap
+	say 1013
+	log 1053 step 3
+	
+_foundletter4_ task:
+	clicked item _letter4_
+	reveal _dung5_ readmap
+	say 1013
+	log 1054 step 3
+	
+_foundletter5_ task:
+	clicked item _letter5_
+	reveal _dung6_ readmap
+	say 1013
+	log 1055 step 3
+	
+_foundletter6_ task:
+	clicked item _letter6_
+	reveal _dung7_ readmap
+	say 1013
+	log 1056 step 3
+	
+_foundletter7_ task:
+	clicked item _letter7_
+	reveal _dung8_ readmap
+	say 1013
+	log 1057 step 3
+	
+_foundletter8_ task:
+	clicked item _letter8_
+	reveal _dung9_ readmap
+	say 1013
+	log 1058 step 3
+	
+_foundletter9_ task:
+	clicked item _letter9_
+	reveal _dung10_ readmap
+	say 1013
+	log 1059 step 3
+	
+_foundletter10_ task:
+	clicked item _letter10_
+	reveal _dung11_ readmap
+	say 1013
+	log 1060 step 3
+	
+_foundletter11_ task:
+	clicked item _letter11_
+	reveal _dung12_ readmap
+	say 1013
+	log 1061 step 3
+	
+_foundletter12_ task:
+	clicked item _letter12_
+	reveal _dung13_ readmap
+	say 1013
+	log 1062 step 3
+	
+_foundletter13_ task:
+	clicked item _letter13_
+	reveal _dung14_ readmap
+	say 1013
+	log 1063 step 3
+	
+_foundletter14_ task:
+	clicked item _letter14_
+	reveal _dung15_ readmap
+	say 1013
+	log 1064 step 3
+	
+_foundletter15_ task:
+	clicked item _letter15_
+	reveal _dung16_ readmap
+	say 1013
+	log 1065 step 3
+	
+_foundletter16_ task:
+	clicked item _letter16_
+	reveal _dung17_ readmap
+	say 1013
+	log 1066 step 3
+	
+_foundletter17_ task:
+	clicked item _letter17_
+	reveal _dung18_ readmap
+	say 1013
+	log 1067 step 3
+	
+_foundletter18_ task:
+	clicked item _letter18_
+	reveal _dung19_ readmap
+	say 1013
+	log 1068 step 3
+	
+_foundletter19_ task:
+	clicked item _letter19_
+	reveal _dung20_ readmap
+	say 1013
+	log 1069 step 3
+	
+_foundletter20_ task:
+	clicked item _letter20_
+	reveal _dung21_ readmap
+	say 1013
+	log 1070 step 3
+	
+_foundletter21_ task:
+	clicked item _letter21_
+	reveal _dung22_ readmap
+	say 1013
+	log 1071 step 3
+	
+_foundletter22_ task:
+	clicked item _letter22_
+	reveal _dung23_ readmap
+	say 1013
+	log 1072 step 3
+	
+_foundletter23_ task:
+	clicked item _letter23_
+	reveal _dung24_ readmap
+	say 1013
+	log 1073 step 3
+	
+_foundletter24_ task:
+	clicked item _letter24_
+	reveal _dung25_ readmap
+	say 1013
+	log 1074 step 3
+	
+_foundletter25_ task:
+	clicked item _letter25_
+	reveal _dung26_ readmap
+	say 1013
+	log 1075 step 3
+	
+_foundletter26_ task:
+	clicked item _letter26_
+	reveal _dung27_ readmap
+	say 1013
+	log 1076 step 3
+	
+_foundletter27_ task:
+	clicked item _letter27_
+	reveal _dung28_ readmap
+	say 1013
+	log 1077 step 3
+	
+_foundletter28_ task:
+	clicked item _letter28_
+	reveal _dung29_ readmap
+	say 1013
+	log 1078 step 3
+	
+_foundletter29_ task:
+	clicked item _letter29_
+	say 1014
+
+_group1_ task:
+	when _foundletter1_ and _foundletter2_ and _foundletter3_ and _foundletter4_ and _foundletter5_ 
+	
+_group2_ task:
+	when _foundletter6_ and _foundletter7_ and _foundletter8_ and _foundletter9_ and _foundletter10_ 
+	
+_group3_ task:
+	when _foundletter11_ and _foundletter12_ and _foundletter13_ and _foundletter14_ and _foundletter15_ 
+	
+_group4_ task:
+	when _foundletter16_ and _foundletter17_ and _foundletter18_ and _foundletter19_ and _foundletter20_  
+	
+_group5_ task:
+	when _foundletter21_ and _foundletter22_ and _foundletter23_ and _foundletter24_ and _foundletter25_ 
+
+_group6_ task:
+	when _foundletter26_ and _foundletter27_ and _foundletter28_ and _foundletter29_  
+
+_allmaps_ task:
+	when _group1_ and _group2_ and _group3_ and _group4_ and _group5_ and _group6_
+	say 1015
+	log 1016 step 4
+	
+_spawn1_ task:
+	when not _day_ and _group1_
+	create foe _wave1_ every 160 minutes 20 times with 20% success 
+	
+_spawn2_ task:
+	when not _day_ and _group2_
+	create foe _wave1_ every 155 minutes 20 times with 20% success 
+
+_spawn3_ task:
+	when not _day_ and _group3_
+	create foe _wave1_ every 150 minutes 20 times with 20% success 
+
+_spawn4_ task:
+	when not _day_ and _group4_
+	create foe _wave1_ every 155 minutes 20 times with 20% success 	
+
+_spawn5_ task:
+	when not _day_ and _group5_
+	create foe _wave2_ every 140 minutes 20 times with 20% success 	
+
+_spawn6_ task:
+	when not _day_ and _group6_
+	create foe _wave2_ every 135 minutes 20 times with 20% success 	
+
+_day_ task:
+	daily from 4:30 to 19:30
+	
+_qgclicked_ task:
+	clicked npc _qgfriend_ 
+
+_clearclick_ task:
+	when _qgclicked_ and not _allmaps_
+	say 1003 
+	clear _qgclicked_ _clearclick_ 
+	
+_questdone_ task:
+	when _qgclicked_ and _allmaps_ 
+	legal repute +15
+	give pc _gold_ 
+	end quest 
+
