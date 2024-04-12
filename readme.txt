@@ -28,7 +28,9 @@ If you somehow cancel the quest to summon a Daedric prince, it can be restarted 
 
 You will also receive 15 legal rep in that region and 1000-2000 gold per dungeon for completing the quest.
 
-Currently, you will also be able to do the Daedric summoning the normal as well in order to get 2 rewards, but this will likely be changed in the future.
+Currently, you will also be able to do the Daedric summoning the normal way as well in order to get 2 rewards, but this will likely be changed in the future.
+
+If you use Smaller Dungegons, Fixed Dungeon Quest Markers is required to ensure you get the correct list of dungeons.
 
 Here is the full quest list:
 
@@ -59,7 +61,7 @@ Here is the full quest list:
  Wrothgarian Mountains Laboratories
  Wrothgarian Mountains Giant StrongHolds
  Wrothgarian Mountains Barbarian Strongholds
- Wrothgarian MountainsVolcanic Caves
+ Wrothgarian Mountains Volcanic Caves
  Daggerfall Crypts
  Daggerfall Prisons
  Daggerfall Covens

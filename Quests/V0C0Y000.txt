@@ -5,7 +5,7 @@ DisplayName: Clavicus Vile Summoning
 QRC:
 
 QuestorOffer:  [1000]
-<ce> You can summon Namira
+<ce> You can summon Clavicus Vile
 
 RefuseQuest:  [1001]
 <ce> Then stop wasting my time!
@@ -14,7 +14,7 @@ AcceptQuest:  [1002]
 <ce> A messager abruptly hands you a small token.
 <ce> You've proven your mastery of the human stronghold.
 <ce> The Academics now have the information they need
-<ce> to guarantee a successful summoning of Namira.
+<ce> to guarantee a successful summoning of Clavicus Vile.
 <ce> 
 <ce> Meet with _vampsummon_ 
 <ce> at __palace_ palace.
@@ -25,7 +25,7 @@ QuestFail:  [1003]
 <ce> You haven't done enough to earn the title of Dragon Slayer.
 
 QuestComplete:  [1004]
-<ce> I will now summon Namira.
+<ce> I will now summon Clavicus Vile.
 
 QuestorPostsuccess:  [1008]
 You have served us well in the past. How can we help you?

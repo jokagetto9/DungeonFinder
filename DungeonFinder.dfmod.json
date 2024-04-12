@@ -3,7 +3,7 @@
     "ModVersion": "0.8",
     "ModAuthor": "GhostPutty",
     "DFUnity_Version": "1.0.0",
-    "ModDescription": "Quests to explore every regions and dungeons in order to summon the Daedric princes.",
+    "ModDescription": "Quests to explore regions and dungeons in order to summon the Daedric princes.",
     "GUID": "a5d1f6c8-6686-42a6-80b6-3f28943c8fc7",
     "Files": [
         "Assets/Game/Mods/DungeonFinder/Scripts/DungeonFinder.cs",
