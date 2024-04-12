@@ -12,7 +12,7 @@ RefuseQuest:  [1001]
 
 AcceptQuest:  [1002]
 <ce> A messager abruptly hands you a small token.
-<ce> You've proven your mastery of the vampire haunt.
+<ce> You've proven your mastery of the laboratory.
 <ce> The Academics now have the information they need
 <ce> to guarantee a successful summoning of Hermaeus Mora.
 <ce> 
