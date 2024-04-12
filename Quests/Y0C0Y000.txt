@@ -11,7 +11,7 @@ RefuseQuest:  [1001]
 <ce> Then stop wasting my time!
 
 AcceptQuest:  [1002]
-<ce> A messager abruptly hands you a small token.
+<ce> A messenger abruptly hands you a small token.
 <ce> You've proven your mastery of the prison.
 <ce> The Academics now have the information they need
 <ce> to guarantee a successful summoning of Mehrunes Dagon.
